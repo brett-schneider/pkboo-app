@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "70273a12-bbab-4d03-b2c3-7dd2967c0034",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "70273a12-bbab-4d03-b2c3-7dd2967c0034" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "70273a12-bbab-4d03-b2c3-7dd2967c0034" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A4698652-18B3-4C20-AD98-6019F32AB3D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "70273a12-bbab-4d03-b2c3-7dd2967c0034" : "pkboo-app\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "pkboo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "pkboo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/pkboo.net\/repos\/pkboo-app",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "70273a12-bbab-4d03-b2c3-7dd2967c0034"
+    }
+  ]
+}
