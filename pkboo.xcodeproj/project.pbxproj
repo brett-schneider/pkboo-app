@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8B7D326A1C6024F400973732 /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D32691C6024F400973732 /* MessagesTableViewController.swift */; };
+		8B7D326C1C602A7B00973732 /* messageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D326B1C602A7B00973732 /* messageCell.swift */; };
+		8B7D326F1C602E8F00973732 /* profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B7D326D1C602E8F00973732 /* profile@2x.png */; };
+		8B7D32701C602E8F00973732 /* profile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B7D326E1C602E8F00973732 /* profile@3x.png */; };
+		8B7D32721C613EE900973732 /* M43A5959.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B7D32711C613EE900973732 /* M43A5959.jpg */; };
+		8B7D32741C614E3F00973732 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D32731C614E3E00973732 /* ProfileViewController.swift */; };
+		8B7D327C1C63785D00973732 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D327B1C63785D00973732 /* Login.swift */; };
 		8BF98ED81C5EBE7200BA6195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF98ED71C5EBE7200BA6195 /* AppDelegate.swift */; };
 		8BF98EDA1C5EBE7200BA6195 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF98ED91C5EBE7200BA6195 /* FirstViewController.swift */; };
 		8BF98EDC1C5EBE7200BA6195 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF98EDB1C5EBE7200BA6195 /* SecondViewController.swift */; };
@@ -96,6 +102,12 @@
 
 /* Begin PBXFileReference section */
 		8B7D32691C6024F400973732 /* MessagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
+		8B7D326B1C602A7B00973732 /* messageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = messageCell.swift; sourceTree = "<group>"; };
+		8B7D326D1C602E8F00973732 /* profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile@2x.png"; sourceTree = "<group>"; };
+		8B7D326E1C602E8F00973732 /* profile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile@3x.png"; sourceTree = "<group>"; };
+		8B7D32711C613EE900973732 /* M43A5959.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = M43A5959.jpg; sourceTree = "<group>"; };
+		8B7D32731C614E3E00973732 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8B7D327B1C63785D00973732 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		8BF98ED41C5EBE7200BA6195 /* pkboo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pkboo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF98ED71C5EBE7200BA6195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BF98ED91C5EBE7200BA6195 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -226,8 +238,8 @@
 				8BF98F0C1C5FD1D700BA6195 /* images */,
 				8BF98ED71C5EBE7200BA6195 /* AppDelegate.swift */,
 				8BF98ED91C5EBE7200BA6195 /* FirstViewController.swift */,
-				8BF98EDB1C5EBE7200BA6195 /* SecondViewController.swift */,
 				8BF98EDD1C5EBE7200BA6195 /* Main.storyboard */,
+				8BF98EDB1C5EBE7200BA6195 /* SecondViewController.swift */,
 				8BF98EE01C5EBE7200BA6195 /* Assets.xcassets */,
 				8BF98EE21C5EBE7200BA6195 /* LaunchScreen.storyboard */,
 				8BF98EE51C5EBE7200BA6195 /* Info.plist */,
@@ -236,6 +248,9 @@
 				8BF990521C5FFFB300BA6195 /* _notes_ */,
 				8BF990541C60054800BA6195 /* ProfileTableViewController.swift */,
 				8B7D32691C6024F400973732 /* MessagesTableViewController.swift */,
+				8B7D326B1C602A7B00973732 /* messageCell.swift */,
+				8B7D32731C614E3E00973732 /* ProfileViewController.swift */,
+				8B7D327B1C63785D00973732 /* Login.swift */,
 			);
 			path = pkboo;
 			sourceTree = "<group>";
@@ -258,20 +273,21 @@
 			path = pkbooUITests;
 			sourceTree = "<group>";
 		};
-		8BF98F091C5FCDC600BA6195 /* backgrounds */ = {
+		8BF98F091C5FCDC600BA6195 /* temp_proto */ = {
 			isa = PBXGroup;
 			children = (
 				8BF98F071C5EC04700BA6195 /* photo-5.jpg */,
 				8BF98F0A1C5FCDDA00BA6195 /* M43A7770.jpg */,
+				8B7D32711C613EE900973732 /* M43A5959.jpg */,
 			);
-			name = backgrounds;
+			name = temp_proto;
 			sourceTree = "<group>";
 		};
 		8BF98F0C1C5FD1D700BA6195 /* images */ = {
 			isa = PBXGroup;
 			children = (
 				8BF98F0D1C5FD1E600BA6195 /* icons */,
-				8BF98F091C5FCDC600BA6195 /* backgrounds */,
+				8BF98F091C5FCDC600BA6195 /* temp_proto */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -282,6 +298,8 @@
 				8BF98F161C5FD7E400BA6195 /* google+_signin_buttons */,
 				8BF98F121C5FD3F600BA6195 /* arrow-left@2x.png */,
 				8BF98F131C5FD3F600BA6195 /* arrow-left@3x.png */,
+				8B7D326D1C602E8F00973732 /* profile@2x.png */,
+				8B7D326E1C602E8F00973732 /* profile@3x.png */,
 			);
 			name = icons;
 			sourceTree = "<group>";
@@ -498,6 +516,7 @@
 				8BF98F141C5FD3F700BA6195 /* arrow-left@2x.png in Resources */,
 				8BF990081C5FD7E400BA6195 /* btn_google+_dark_normal_ios@2x.png in Resources */,
 				8BF9901F1C5FD7E400BA6195 /* btn_google+_signin_dark_focus_ios@3x.png in Resources */,
+				8B7D326F1C602E8F00973732 /* profile@2x.png in Resources */,
 				8BF98F151C5FD3F700BA6195 /* arrow-left@3x.png in Resources */,
 				8BF98FFD1C5FD7E400BA6195 /* btn_google+_light_pressed_ios.png in Resources */,
 				8BF990001C5FD7E400BA6195 /* btn_google+_signin_dark_normal_ios.png in Resources */,
@@ -538,7 +557,9 @@
 				8BF990011C5FD7E400BA6195 /* btn_google+_signin_dark_pressed_ios.png in Resources */,
 				8BF990021C5FD7E400BA6195 /* btn_google+_signin_light_disabled_ios.png in Resources */,
 				8BF9901B1C5FD7E400BA6195 /* btn_google+_light_focus_ios@3x.png in Resources */,
+				8B7D32721C613EE900973732 /* M43A5959.jpg in Resources */,
 				8BF990071C5FD7E400BA6195 /* btn_google+_dark_focus_ios copy@2x.png in Resources */,
+				8B7D32701C602E8F00973732 /* profile@3x.png in Resources */,
 				8BF98FFB1C5FD7E400BA6195 /* btn_google+_light_focus_ios.png in Resources */,
 				8BF9901E1C5FD7E400BA6195 /* btn_google+_signin_dark_disabled_ios@3x.png in Resources */,
 				8BF990041C5FD7E400BA6195 /* btn_google+_signin_light_normal_ios.png in Resources */,
@@ -568,10 +589,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BF990551C60054800BA6195 /* ProfileTableViewController.swift in Sources */,
+				8B7D327C1C63785D00973732 /* Login.swift in Sources */,
+				8B7D326C1C602A7B00973732 /* messageCell.swift in Sources */,
 				8BF98EDC1C5EBE7200BA6195 /* SecondViewController.swift in Sources */,
 				8B7D326A1C6024F400973732 /* MessagesTableViewController.swift in Sources */,
 				8BF98ED81C5EBE7200BA6195 /* AppDelegate.swift in Sources */,
 				8BF990511C5FEC7900BA6195 /* account.swift in Sources */,
+				8B7D32741C614E3F00973732 /* ProfileViewController.swift in Sources */,
 				8BF9904F1C5FE5E600BA6195 /* SignUpViewController.swift in Sources */,
 				8BF98EDA1C5EBE7200BA6195 /* FirstViewController.swift in Sources */,
 			);
